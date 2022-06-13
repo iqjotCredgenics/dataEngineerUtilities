@@ -1,4 +1,4 @@
-def long_to_short(long_month_name):
+def month_acronym(long_month_name):
 #long_month_name = "January"
     datetime_object = datetime.datetime.strptime(long_month_name, "%B")
     month_number = datetime_object.month
