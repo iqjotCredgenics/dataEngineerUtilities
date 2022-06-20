@@ -4,7 +4,7 @@ setup(
     packages=find_packages(),
     description='DB Library for Credgenics',
     version='0.2.2',
-    url='',
+    url='https://github.com/iqjotCredgenics/dataEngineerUtilities',
     author='Ketan Bassi',
     author_email='ketan.bassi@credgenics.com',
    
