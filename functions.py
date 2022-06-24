@@ -1,8 +1,17 @@
-def sum(x,y):
-    return x+y
+class funcTest():
+    
+    def __init__(self, x, y):
+        try:
+            self.x = int(x)
+            self.y = int(y)
+        except Exception:
+            raise ValueError("Invalid number of input")
 
-def average(x,y):
-    return (x+y)/2
+    def sum(self, x,y):
+        return x+y
 
-def power(x,y):
-    return x**y
+    def average(self, x,y):
+        return (x+y)/2
+
+    def power(self, x,y):
+        return x**y
